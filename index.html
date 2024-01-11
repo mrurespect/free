@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link type="text/css" href="css/skitter.css" media="all" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<div id="sideBar" class="">
+    <div class="box rounded-bottom">
+        <h4 class="fw-bolder">choose a color</h4>
+        <div class="colors">
+            <span class="color-box"></span>
+            <span class="color-box"></span>
+            <span class="color-box"></span>
+            <span class="color-box"></span>
+            <span class="color-box"></span>
+        </div>
+    </div>
+    <i id="setting" class="fas fa-cog"></i>
+</div>
+<section id="loading">
+    <i class="fas fa-spinner fa-2x fa-spin"></i> <!--fa-spin : make the spinner turn-->
+</section>
+<button id="buttonUp" class="btn bg-primary text-white p-2 rounded-pill">
+    <i class="fas fa-arrow-alt-circle-up"></i>
+</button>
+<nav id="main_nav" class="navbar fixed-top  navbar-expand-lg  navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#home">
+            <img class="logo" src="img/img_5.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-5 ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about" >About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#testimonial">Testimonial</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#courses">gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#news">News </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<header id="home" class="vh-100  d-flex align-items-center">
+    <div class="header-content  ps-4 text-white">
+        <span class="d-inline"><h1 class="typing">We Are Professional</h1></span>
+        <p class="lead">Developer,Graphics & Web Design</p>
+        <div class="social-media mb-2 d-flex">
+            <div class="icon  border border-light rounded-circle mx-1">
+                <i class="fa-brands fa-facebook "></i>
+            </div>
+            <div class="icon border border-light rounded-circle mx-1">
+                <i class="fa-brands fa-linkedin "></i>
+            </div>
+            <div class="icon border border-light rounded-circle mx-1">
+                <i class="fa-brands fa-github "></i>
+            </div>
+            <div class="icon border border-light rounded-circle mx-1">
+                <i class="fa-brands fa-instagram "></i>
+            </div>
+            <div class="icon border border-light rounded-circle mx-1">
+                <i class="fa-brands fa-twitch "></i>
+            </div>
+        </div>
+        <a href="#" class="text-white ">View portfolio</a>
+    </div>
+
+</header>
+<section id="about" class="py-5">
+    <div class="title  position-relative d-flex justify-content-center align-items-center">
+        <h2 class=" m-0">About</h2>
+        <h3 class=" m-0 position-absolute">About</h3>
+    </div>
+    <p class=" text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, labore.</p>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <img class="w-100 shadow-lg" src="img/img_6.png" alt="">
+            </div>
+            <div class="col-md-7 offset-md-1  text-center d-flex align-items-center justify-content-center ">
+                <div class="">
+                    <h4 class="text-main fw-bold">Lara craft</h4>
+                    <p class="lead text-muted">Creative UI/UX Designer,Developer</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium culpa debitis dignissimos eveniet molestiae nemo obcaecati ratione sint voluptates! Asperiores aut blanditiis, consequuntur culpa debitis distinctio dolorem dolores hic laboriosam laborum mollitia neque nihil, nostrum, omnis optio pariatur quibusdam recusandae ut? Consequuntur dignissimos, est illum in quis sit sunt.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<section id="testimonial" class="py-5 text-center">
+    <div class="title  position-relative d-flex justify-content-center align-items-center">
+        <h2 class=" m-0">Testimonial</h2>
+        <h3 class=" m-0 position-absolute">Testimonial</h3>
+    </div>
+    <div id="carouselExampleIndicators" class=" carousel slide w-75 mx-auto">
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/img_7.png" class="client-image shadow" alt="">
+                <div class="client-feedback p-5">
+                    <h5 class="fw-bolder">Lorem ipsum.</h5>
+                    <h6 class="text-muted py-3 ">Hello friend</h6>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consequuntur debitis id impedit itaque, officia officiis perspiciatis ratione saepe voluptates.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img  src="img/img_8.png" class="client-image shadow" alt="">
+                <div class="client-feedback p-5">
+                    <h5 class="fw-bolder">Lorem ipsum.</h5>
+                    <h6 class="text-muted py-3 ">Hello friend</h6>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consequuntur debitis id impedit itaque, officia officiis perspiciatis ratione saepe voluptates.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/img_10.png" class="client-image shadow" alt="">
+                <div class="client-feedback p-5">
+                    <h5 class="fw-bolder">Lorem ipsum.</h5>
+                    <h6 class="text-muted py-3 ">Hello friend</h6>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consequuntur debitis id impedit itaque, officia officiis perspiciatis ratione saepe voluptates.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        <div class="carousel-indicators position-static">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+                <img src="img/img_7.png" class="w-100 rounded-circle" alt=""></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2">
+                <img src="img/img_7.png" class="w-100 rounded-circle" alt=""></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3">
+                <img src="img/img_7.png" class="w-100 rounded-circle" alt=""></button>
+        </div>
+    </div>
+</section>
+<section id="courses" class="mb-5">
+    <div>
+        <ul class="nav nav-pills mb-5 bg-primary bg-opacity-25 justify-content-center" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-development-tab" data-bs-toggle="pill" data-bs-target="#pills-development" type="button" role="tab" aria-controls="pills-development" aria-selected="true">Development</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-design-tab" data-bs-toggle="pill" data-bs-target="#pills-design" type="button" role="tab" aria-controls="pills-design" aria-selected="false">Design</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-ux-tab" data-bs-toggle="pill" data-bs-target="#pills-ux" type="button" role="tab" aria-controls="pills-ux" aria-selected="false">UX</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-marketing-tab" data-bs-toggle="pill" data-bs-target="#pills-marketing" type="button" role="tab" aria-controls="pills-marketing" aria-selected="false">Marketing</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-business-tab" data-bs-toggle="pill" data-bs-target="#pills-business" type="button" role="tab" aria-controls="pills-business" aria-selected="false">Business</button>
+            </li>
+        </ul>
+        <div class="tab-content mb-5" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-development" role="tabpanel" aria-labelledby="pills-development-tab" tabindex="0">
+                <div class="container-fluid">
+                    <div class="row ">
+                        <div class="col-md-3">
+                            <div class="card" >
+                                <img src="img/OIP.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <span class="badge rounded-pill text-bg-success mb-2">Beginner</span>
+                                        <i class="fa-regular fa-heart "></i>
+                                    </div>
+                                    <h5 class="card-title fw-bold">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-outline-danger d-block w-100">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card" >
+                                <img src="img/OIP%20(3).jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <span class="badge rounded-pill text-bg-success mb-2">Beginner</span>
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                    <h5 class="card-title fw-bold">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-outline-danger d-block w-100">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card" >
+                                <img src="img/OIP%20(2).jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <span class="badge rounded-pill text-bg-success mb-2">Beginner</span>
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                    <h5 class="card-title fw-bold">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-outline-danger d-block w-100">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card" >
+                                <img src="img/OIP%20(1).jpg" class="card-img-top" alt="...">
+                                <div class="card-body ">
+                                    <div class="d-flex justify-content-between">
+                                        <span class="badge rounded-pill text-bg-success mb-2">Beginner</span>
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                    <h5 class="card-title fw-bold ">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-outline-danger d-block w-100">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-design" role="tabpanel" aria-labelledby="pills-design-tab" tabindex="0">
+                <div class="container-fluid">
+                    <div class="row gy-3 ">
+                        <div class="col-md-3">
+                            <div class="card" >
+                                <img src="img/OIP.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <span class="badge rounded-pill text-bg-success mb-2">Beginner</span>
+                                        <i class="fa-regular fa-heart "></i>
+                                    </div>
+                                    <h5 class="card-title fw-bold">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-outline-danger d-block w-100">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card" >
+                                <img src="img/OIP%20(3).jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <span class="badge rounded-pill text-bg-success mb-2">Beginner</span>
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                    <h5 class="card-title fw-bold">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-outline-danger d-block w-100">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card" >
+                                <img src="img/OIP%20(2).jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <span class="badge rounded-pill text-bg-success mb-2">Beginner</span>
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                    <h5 class="card-title fw-bold">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-outline-danger d-block w-100">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card" >
+                                <img src="img/OIP%20(1).jpg" class="card-img-top" alt="...">
+                                <div class="card-body ">
+                                    <div class="d-flex justify-content-between">
+                                        <span class="badge rounded-pill text-bg-success mb-2">Beginner</span>
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                    <h5 class="card-title fw-bold ">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-outline-danger d-block w-100">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card" >
+                                <img src="img/OIP%20(2).jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <span class="badge rounded-pill text-bg-success mb-2">Beginner</span>
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                    <h5 class="card-title fw-bold">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-outline-danger d-block w-100">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card" >
+                                <img src="img/OIP%20(1).jpg" class="card-img-top" alt="...">
+                                <div class="card-body ">
+                                    <div class="d-flex justify-content-between">
+                                        <span class="badge rounded-pill text-bg-success mb-2">Beginner</span>
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div>
+                                    <h5 class="card-title fw-bold ">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-outline-danger d-block w-100">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-ux" role="tabpanel" aria-labelledby="pills-ux-tab" tabindex="0">...</div>
+            <div class="tab-pane fade" id="pills-marketing" role="tabpanel" aria-labelledby="pills-marketing-tab" tabindex="0">...</div>
+            <div class="tab-pane fade" id="pills-business" role="tabpanel" aria-labelledby="pills-business-tab" tabindex="0">...</div>
+        </div>
+    </div>
+
+</section>
+<section>
+    <div class="position-relative">
+        <div id="particles-js" class="mt-5 vh-100 w-100 bg-dark position-absolute top-50 start-50 translate-middle"></div>
+        <div class="skitter skitter-large mx-auto w-25 bg-danger mb-0">
+            <ul class="w-100 mt-0">
+                <li>
+                    <a href="#cut"><img src="images/img.png" class="cut" /></a>
+                    <div class="label_text"><p>cut</p></div>
+                </li>
+                <li>
+                    <a href="#swapBlocks"><img src="images/img_1.png" class="swapBlocks " /></a>
+                    <div class="label_text"><p>swapBlocks</p></div>
+                </li>
+                <li>
+                    <a href="#swapBarsBack"><img src="images/img_2.png" class="swapBarsBack " /></a>
+                    <div class="label_text"><p>swapBarsBack</p></div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section id="services" class="mt-0 py-5 text-center bg-dark ">
+    <div class="title  position-relative d-flex justify-content-center align-items-center">
+        <h2 class=" m-0">Services</h2>
+        <h3 class="m-0 position-absolute text-white">Services</h3>
+    </div>
+    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet at culpa ipsum iure natus, nobis quas quibusdam sequi tempora velit veritatis? Consequatur dolor doloremque dolores esse expedita maiores veniam.</p>
+    <div class="container">
+        <div id="element" class="row gy-4 pt-5 justify-content-center">
+            <div class="col-md-3">
+                <div class="item position-relative bg-white p-5">
+                    <div class="icon  position-absolute start-50 top-0  translate-middle  border border-light rounded-circle mx-1 bg-black text-white   border-3 p-3">
+                        <i class="fa-brands fa-linkedin "></i>
+                    </div>
+                    <h3>Branding</h3>
+                    <div class="brdr w-25 mx-auto my-2 "></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos dolor necessitatibus quidem rem sed? Illum modi neque suscipit tempora voluptatibus?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer id="news">
+    <div class="svg-caption">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-white">
+                    <h3 class="fw-bolder">Lorem ipsum dolor.</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At blanditiis enim est facere itaque qui, ratione recusandae similique totam unde.</p>
+
+                </div>
+                <div class="col-md-6  text-center">
+                    <img class="w-75 m-5" src="img/img_11.png" alt="">
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <svg viewBox="0 0 1440 320">
+        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#4726e1;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#ccc;stop-opacity:1" />
+        </linearGradient>
+        <path fill="url(#grad1)" fill-opacity="1" d="M0,192L9.6,181.3C19.2,171,38,149,58,154.7C76.8,160,96,192,115,213.3C134.4,235,154,245,173,208C192,171,211,85,230,96C249.6,107,269,213,288,234.7C307.2,256,326,192,346,170.7C364.8,149,384,171,403,165.3C422.4,160,442,128,461,144C480,160,499,224,518,234.7C537.6,245,557,203,576,181.3C595.2,160,614,160,634,181.3C652.8,203,672,245,691,245.3C710.4,245,730,203,749,197.3C768,192,787,224,806,213.3C825.6,203,845,149,864,154.7C883.2,160,902,224,922,229.3C940.8,235,960,181,979,170.7C998.4,160,1018,192,1037,170.7C1056,149,1075,75,1094,48C1113.6,21,1133,43,1152,48C1171.2,53,1190,43,1210,69.3C1228.8,96,1248,160,1267,165.3C1286.4,171,1306,117,1325,96C1344,75,1363,85,1382,117.3C1401.6,149,1421,203,1430,229.3L1440,256L1440,0L1430.4,0C1420.8,0,1402,0,1382,0C1363.2,0,1344,0,1325,0C1305.6,0,1286,0,1267,0C1248,0,1229,0,1210,0C1190.4,0,1171,0,1152,0C1132.8,0,1114,0,1094,0C1075.2,0,1056,0,1037,0C1017.6,0,998,0,979,0C960,0,941,0,922,0C902.4,0,883,0,864,0C844.8,0,826,0,806,0C787.2,0,768,0,749,0C729.6,0,710,0,691,0C672,0,653,0,634,0C614.4,0,595,0,576,0C556.8,0,538,0,518,0C499.2,0,480,0,461,0C441.6,0,422,0,403,0C384,0,365,0,346,0C326.4,0,307,0,288,0C268.8,0,250,0,230,0C211.2,0,192,0,173,0C153.6,0,134,0,115,0C96,0,77,0,58,0C38.4,0,19,0,10,0L0,0Z"></path></svg>
+</footer>
+
+
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script src="js/code.jquery.com_jquery-3.7.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.skitter.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/particles.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

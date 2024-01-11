@@ -1,0 +1,136 @@
+:root{
+    --main-color:#4726e1 ;
+}
+.text-main{
+    color: var(--main-color);
+}
+body{
+    font-family: "Segoe UI Light", serif;
+}
+header{
+    background-image: url("../img/img_1.png") ;
+    background-position: center center;
+    background-size: cover;
+}
+
+.icon{
+    width: 2rem;
+    height: 2rem;
+    /*background-color: tomato;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.logo{
+    width: 90px;
+}
+.title h2{
+    font-size: 5rem;
+    font-weight: 900;
+    color: rgba(0,0,0,0.075);
+    letter-spacing: 10px;
+}
+.title h3{
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #000;
+}
+.client-feedback{
+    border: solid #f1f1f1 4px ;
+}
+.client-image{
+    width: 90px;
+    border-radius: 50%;
+    border: #f4f4f4 solid 4px;
+    transform: translateY(50%);
+}
+.client-feedback h6{
+    position: relative;
+}
+.client-feedback h6::after{
+    content: "";
+    background-color: var(--main-color);
+    height: 2px ;
+    width: 10%;
+    position: absolute;
+    top: 100%;
+    left: 45%;
+}
+.carousel-indicators [data-bs-target]{
+    width: 50px ;
+    height: 50px;
+    border-radius: 50%  ;
+    text-indent: 0;
+}
+#services .title h2{
+    color: #222 ;
+}
+#services .brdr{
+    height: 2px;
+    background-color: var(--main-color);
+}
+.svg-caption{
+    background: linear-gradient(90deg,#4726e1,#ccc);
+}
+#main_nav{
+    transition: background-color 2s, padding 2s;
+    font-weight: 800;
+}
+.nav-link{
+    cursor: pointer;
+}
+#buttonUp{
+    position: fixed;
+    bottom: 70px;
+    right: 30px;
+    z-index: 9999;
+    display: none;
+}
+#loading{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #333;
+    z-index: 999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+body{
+    overflow: hidden;// to hide the scroll
+}
+#sideBar{
+    background-color: transparent;
+    position: fixed;
+    top: 150px;
+    left: 0;
+    z-index: 999;
+    display: flex;
+    align-items: flex-start;
+
+
+}
+#sideBar .box{
+    background-color: #cccccc ;
+    padding: 15px;
+    border: solid 2px #333;
+}
+#sideBar i{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+
+}
+#sideBar .color-box{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    cursor: pointer;
+
+}
+
