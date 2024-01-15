@@ -1,4 +1,4 @@
-Description
+
 This project is a responsive and visually appealing website template designed for showcasing professional services of a software devloper.
 The template incorporates modern design elements, animations, and a variety of sections to provide a comprehensive web presence.
 It is built using HTML, CSS, and JavaScript, with additional libraries such as Bootstrap, FontAwesome, Skitter, Typed.js, and Particle.js for enhanced functionality and aesthetics.
